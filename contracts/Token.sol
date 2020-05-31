@@ -47,7 +47,7 @@ contract ReliableNetworkToken is ERC20Interface, SafeMath {
      * Initializes contract with initial supply tokens to the creator of the contract
      */
     constructor() public {
-        name = "ReliableNetwork";
+        name = "Reliable Network";
         symbol = "RAN";
         decimals = 18;
         _totalSupply = 100000000000000000000000000;
